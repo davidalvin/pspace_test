@@ -1,3 +1,4 @@
 #!/bin/bash
 echo "Hello World"
-pip install music21
+pip install -r requirements.txt
+echo "Installation complete"
