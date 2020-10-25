@@ -19,10 +19,10 @@ import numpy as np
 import pandas as pd
 import tensorflow as tf
 from matplotlib import pyplot as plt
-#from GlobalConstants import *
+from GlobalConstants import *
 #import pydot
 import random
-#from HelperFunctions import *
+from HelperFunctions import *
 print("Hello world")
 
 # list of name, degree, score 
