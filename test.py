@@ -1,26 +1,25 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[3]:
+# In[6]:
 
 
-get_ipython().system('pip install pandas')
 print("Hello world")
 # importing pandas as pd  
-import pandas as pd  
+# import pandas as pd  
    
-# list of name, degree, score 
-nme = ["aparna", "pankaj", "sudhir", "Geeku"] 
-deg = ["MBA", "BCA", "M.Tech", "MBA"] 
-scr = [90, 40, 80, 98] 
+# # list of name, degree, score 
+# nme = ["aparna", "pankaj", "sudhir", "Geeku"] 
+# deg = ["MBA", "BCA", "M.Tech", "MBA"] 
+# scr = [90, 40, 80, 98] 
    
-# dictionary of lists  
-dict = {'name': nme, 'degree': deg, 'score': scr}  
+# # dictionary of lists  
+# dict = {'name': nme, 'degree': deg, 'score': scr}  
      
-df = pd.DataFrame(dict) 
+# df = pd.DataFrame(dict) 
   
-# saving the dataframe 
-df.to_csv('file1.csv') 
+# # saving the dataframe 
+# df.to_csv('file1.csv') 
 
 
 # In[ ]:
