@@ -5,4 +5,4 @@ echo "Installation complete"
 echo "Running test.py"
 python test.py
 echo "Running the jupyter notebook"
-runipy -o test.ipynb
+runipy test.ipynb
